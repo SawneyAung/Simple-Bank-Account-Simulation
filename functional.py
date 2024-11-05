@@ -27,6 +27,7 @@ def getBalance():
     print(f'Your Account Balance: ${balance}')
 
 def transactionHistory(option, amount):
+    #checks if the transaction made was a deposit or a withdraw
     if option == 'd':
         transactionHis.append(f'Deposited ${amount}')
     elif option == 'w':
