@@ -1,0 +1,43 @@
+Bank Account Simulator
+
+Choose an Option:
+[1] Deposit
+[2] Withdraw
+[3] Show Balance
+
+1. Deposit
+
+Enter the amount: 
+Confirm?[y/n]: 
+
+${amount} has be deposited into the account.
+
+*goes back to main menu*
+
+2. Withdraw
+
+Enter the amount:
+Confirm?[y/n]:
+
+*if the amount entered is over the amount in the account*
+Insufficient Balance
+
+*else*
+${amount} has be withdrawn from the account.
+
+*goes back to main menu*
+
+3. Show Balance
+
+Your account balance: ${total}
+
+4. Transction Histroy
+
+1. *transction*
+2. *transction*
+
+variables:
+- total
+- amount
+- transactioHis
+- confirm
